@@ -1,0 +1,220 @@
+
+:root {
+  --color-bg: #69F7BE;
+  --color-text-main: #000000;
+  --color-primary: #FFFF00;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "HK Grotesk";
+  --font-family-header: "HK Grotesk";
+}
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+/* Import fonts */
+@font-face {
+  font-family: HK Grotesk;
+}
+@font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+}
+
+body {
+  font-family: HK Grotesk;
+  background-color: #822963;
+}
+
+/* Page structure */
+.wrapper {
+  min-height: var(--wrapper-height);
+  display: grid;
+  place-items: center;
+  margin: 0 1rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Very light scaling for our illustration */
+.title {
+  color: white;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  text-align: center;
+  top: 55px;
+  position: relative;
+  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titleam {
+  color: white;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  text-align: left;
+  top: 55px;
+  position: relative;
+  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Very light scaling for our illustration */
+.illustration {
+  max-width: 100%;
+  max-height: var(--image-max-width);
+  margin-top: var(--image-margin);
+  border: 10px double #white;
+}
+
+/* Instructions */
+.instructions {
+  margin: 1rem auto 0;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.navbar li {
+  display: block;
+  width: 280px;
+  float: left;
+  margin-left: 2.5px;
+  border: 1px;
+  
+}
+.highlight {
+  background-color: white;
+}
+.navbar a{
+  display: block;
+  padding: 20px;
+  text-decoration: bold;
+  background-color: #9b5382; 
+  color: white;
+}
+
+
+
+.navbar a:hover{
+  background-color: #000000;  
+}
+/* Button - Add it from the README instructions */
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  background: #FFFFFF;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}
+
+
+/* Subheading */
+h2 {
+  color: white;
+}
+
+/* Interactive image */
+.illustration:active {
+  transform: translateY(5px);
+}
+
+/* Button dip
+- Toggling this class on and off will move it down and up again
+- The button transition property above determines the speed of the translate (500ms)
+*/
+
+
+#fname{
+  width: 100%;
+}
+
+#lastname{
+  width: 100%;
+}
+
+#subject{
+  width: 100%;
+}
+
+
+
+.highlight a{
+  background-color:violet;
+}
+
+.instagram {
+  width: 900px;
+  display: flex;
+  align-items:center;
+  float: center;
+}
+.text{
+  color: #d9bed0
+;
+}
+.textaboutme{
+  color: #d9bed0;
+  display: block;
+  text-align: center
+;
+}
+.text1{
+  color: #d9bed0;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+.text2{
+  color: #d9bed0;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+a:link {
+  color: grey;
+}
+
+.pix1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ 
+}
+
+.pix2{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%
+}
+
+.linkcolor{
+  color: violet;
+}
+
+ 
