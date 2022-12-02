@@ -20,15 +20,15 @@
 
 /* Import fonts */
 @font-face {
-  font-family: HK Grotesk;
+  font-family: Trebuchet MS;
 }
 @font-face {
-  font-family: HK Grotesk;
+  font-family: Trebuchet MS;
   font-weight: bold;
 }
 
 body {
-  font-family: HK Grotesk;
+  font-family: Trebuchet MS;
   background-color: #822963;
 }
 
@@ -49,7 +49,7 @@ body {
 /* Very light scaling for our illustration */
 .title {
   color: white;
-  font-family: HK Grotesk;
+  font-family: Trebuchet MS;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
@@ -63,7 +63,7 @@ body {
 }
 .titleam {
   color: white;
-  font-family: HK Grotesk;
+  font-family: Trebuchet MS;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
@@ -93,13 +93,15 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  color: white;
 }
 .navbar li {
   display: block;
   width: 280px;
   float: left;
-  margin-left: 2.5px;
+  margin-left: 2px;
   border: 1px;
+  color: white;
   
 }
 .highlight {
@@ -164,6 +166,7 @@ h2 {
 
 .highlight a{
   background-color:violet;
+  color: white;
 }
 
 .instagram {
@@ -217,4 +220,5 @@ a:link {
   color: violet;
 }
 
- 
+=
+

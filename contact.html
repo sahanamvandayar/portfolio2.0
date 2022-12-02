@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Hi, I'm Sahana.</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="https://drive.google.com/file/d/1Y4HE0-ib8U73bXvBolkRghEV5BMnss58/view?usp=share_link">Resume</a></li>
+      <li><a href="https://www.linkedin.com/in/sahanavandayar/">LinkedIn</a></li>
+      <li class="highlight"><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="container">
+  <form action="action_page.php">
+<br>
+    <br>
+    <a class="text">First Name</a> <br>
+    <input type="text" name="fname" required>
+<br>
+    <br>
+    <a class="text">Last Name</a> <br>
+    <input type="text" name="lname" required>
+    <br><br>
+    
+    <label><a class="text" aria-labelledby="select age in years" >Age</a></label>
+    <select id="age" name="age">
+      <option value="<11">less than 11</option> 
+      <br>
+      <br>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22+">22+</option>
+    </select><br><br>
+    
+    <a class="text" aria-labelledby="select state of origin">State of Origin</label></a>
+    <select id="state" name="state">
+      <option value="0">Minnesota</option> 
+      <br>
+      <br>
+      <option value="1">Illinois</option>
+      <option value="2">Other State</option>
+      <option value="3">International (outside of the USA)</option>
+    </select>
+    
+
+    <br>
+    <br>
+    <a class="text">Message</a><textarea id="subject" name="subject" placeholder="Write something.." aria-labelledby="Message" style="height:200px"></textarea>
+    
+<a href="message.html">
+      <input type="submit"/>
+</a>
+
+
+<p class="text">If you click submit, without filling out the text field,
+your browser will display an error message.</p>
+    
+<!--     <ul class="navbar">
+      <li><a href="message.html">submit</a></li>
+    </ul> -->
+    
+  </form>
+</div>
+  </body>
+</html>
